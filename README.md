@@ -14,3 +14,5 @@ print $template->render({
 
 また、template/main.html中の{% datetime %}を置換し、現在の時刻が表示されるようにした。
 
+$perl main.pl>output.html
+とした結果が、output.htmlである。
