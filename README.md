@@ -12,3 +12,5 @@ print $template->render({
 }); 
 としたとき、画像(image)が表示されるようにした。
 
+また、template/main.html中の{% datetime %}を置換し、現在の時刻が表示されるようにした。
+
