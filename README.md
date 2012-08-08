@@ -10,7 +10,7 @@ print $template->render({
   content => 'これはコンテンツです',
   image => 'img/img.gif',
 }); 
-としたとき、画像(image)が表示されるようにした。
+としたとき、画像(img/img.gif)が表示されるようにした。(.gifでなくてもよい)
 
 また、template/main.html中の{% datetime %}を置換し、現在の時刻が表示されるようにした。
 
