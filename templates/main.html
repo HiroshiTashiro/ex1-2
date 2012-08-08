@@ -1,8 +1,12 @@
 <html>
   <head>
-    <title>タイトル</title>
+    <title>{% title %}</title>
   </head>
   <body>
-    <p>これはコンテンツです</p>
+    <p>
+  	<font color="c0c0c0" size="2">{% datetime %}</font><br><br>
+		{% content %}<br>
+		{% image %}
+    </p>
   </body>
 </html>
